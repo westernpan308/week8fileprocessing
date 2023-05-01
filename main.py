@@ -11,12 +11,11 @@ while True:
   option = input("y/n > ")
     
   if option == "y" or option == "Y":
-      continue
+    continue
       
   elif option == "n" or option == "N":
-      print("Thank you and have a great day")
-      break
+    print("Thank you and have a great day")
+    break
   else:
-      print("\nError invalid entry please try again with Y or N\n ")
-      continue
+    print("\nError invalid entry please try again with Y or N\n ")             option
     
