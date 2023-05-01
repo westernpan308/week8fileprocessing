@@ -14,8 +14,9 @@ while True:
       continue
       
   elif option == "n" or option == "N":
-      print("Thank you and have a great day please return for more weather updates")
+      print("Thank you and have a great day")
       break
   else:
       print("\nError invalid entry please try again with Y or N\n ")
       continue
+    
