@@ -16,7 +16,7 @@ while True:
   elif input == "n" or input == "N":
     print("\nThank you and have a great day")
     exit()
-  
+  else:
     print("\nError invalid entry please try again with Y or N\n ")
 
       
