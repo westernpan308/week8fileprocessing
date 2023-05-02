@@ -6,19 +6,20 @@ while True:
   #empty line (line 6 for a cleaner look)
   print ()
   print(""+name+", "+street+", "+phone+"")
-
-  input("\nwould you like to add another File Y or Yes N for No: ")
-  #option = input("y/n > ")
+  while True:
+    print("\nwould you like to add another File Y or Yes N for No: ")
       
-  if input == "y" or input == "Y":
-    print()
+    option = input("y/n > ")
         
-  elif input == "n" or input == "N":
-    print("\nThank you and have a great day")
-    exit()
-  else:
-    print("\nError invalid entry please try again with Y or N\n ")
-
-      
+    if option == "y" or option == "Y":
+      continue 
+          
+    elif option == "n" or option == "N":
+      print("\nThank you and have a great day")
+      exit()
+    else:
+      print("\nError invalid entry please try again with Y or N\n")
+      continue  
+        
         
    
